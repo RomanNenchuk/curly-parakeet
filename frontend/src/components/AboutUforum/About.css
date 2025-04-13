@@ -1,0 +1,24 @@
+.content-center{
+    display: flex;
+    justify-content: center;
+}
+.text-content{
+    width: 90%;
+    margin-top: 25px;
+    text-align: justify;
+}
+
+.u{
+    color: red;
+}
+.uf{
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+@media (max-width: 767px) {
+    .text-content{
+        width: 80%;
+        text-align: left;
+    }
+
+}

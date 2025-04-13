@@ -1,0 +1,17 @@
+.mn-menu-elem{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 1.5vh 100px 1.5vh 10px;
+    text-decoration: none;
+}
+.mn-menu-elem img{
+    height: 3.5vh;
+    width: auto;
+}
+.mn-menu-elem span{
+    margin-left: 2vh;
+    font-size: 1rem;
+    font-weight: 700;
+
+}

@@ -1,0 +1,236 @@
+{
+  "delete": "Delete",
+  "clear": "Clear",
+  "edit": "Edit",
+  "reply": "Reply",
+  "cancel": "Cancel",
+  "continue": "Continue",
+  "confirm": "Confirm",
+  "unknown": "Unknown",
+  "update": "Update",
+  "send": "Send",
+  "sending": "Sending...",
+  "add": "Add",
+  "save": "Save",
+  "saving": "Saving...",
+  "selectLanguage": "Select language",
+  "chat": {
+    "myChatsCaption": "My chats",
+    "deleteChatQuery": "Delete this chat?",
+    "clearChatQuery": "Clear this chat?",
+    "deletedMessageLabel": "*Deleted message*",
+    "writeMessageLabel": "Write a message...",
+    "defaultChatScreenMessage": "Select a chat to start messaging"
+  },
+  "upload": {
+    "addCover": "Want to add a cover?",
+    "errorPreview": "Failed to generate a preview for the video.",
+    "errorFormat": "Please select a file in JPG, JPEG, PNG, GIF, or MP4 format.",
+    "errorFormatWithoutVideo": "Please select a file in JPG, JPEG, PNG, GIF, or MP4 format.",
+    "uploadFiles": "Upload files",
+    "maxFilesWarning": "You can add up to 10 files. The rest will not be considered.",
+    "selectedFilesCaption": "Selected files"
+  },
+  "createTopic": {
+    "createTopicCaption": "Create Topic",
+    "errorTitle": "Title is too short",
+    "successTopic": "Topic successfully created!",
+    "textType": "Text",
+    "mediaType": "Photo & Video",
+    "create": "Create Topic",
+    "creating": "Creating...",
+    "descriptionInputPlaceholder": "Enter additional information...",
+    "titleInputPlaceholder": "Enter topic title",
+    "selectTagsPlaceholder": "Select tags",
+    "tagsLimitReached": "Limit reached",
+    "addTagButton": "Add",
+    "mediaHeader": "Preview media",
+    "additionalMedia": "Attached information"
+  },
+  "auth": {
+    "resetPassword": "Reset password",
+    "checkEmailForInstructions": "Check your inbox for further instructions",
+    "resetPasswordFailed": "Failed to reset password",
+    "updateEmailFailed": "Failed to update email",
+    "email": "Email",
+    "haveAnAccount": "Have an account?",
+    "logIn": "Log in",
+    "newToUforum": "New to UFORUM?",
+    "signUp": "Sign up",
+    "reset": "Reset",
+    "resetError": "Failed to reset password",
+    "passwordMinLength": "Password must be at least 6 characters long",
+    "register": "Register",
+    "loginTitle": "Login",
+    "loginFailed": "Failed to log in",
+    "forgotPassword": "Forgot password?",
+    "or": "or",
+    "emailOrUsername": "Email or username",
+    "password": "Password",
+    "noUserFound": "No user found",
+    "unknown": "Unknown",
+    "haveAccount": "Already have an account?",
+    "errorSignup": "Error creating an account",
+    "fullName": "Full name",
+    "username": "Username",
+    "continueWithGoogle": "Continue with Google",
+    "avatar": "Avatar",
+    "emailTaken": "This email is already in use",
+    "usernameTaken": "This username is already taken"
+  },
+  "menu": {
+    "home": "Homepage",
+    "chats": "Chats",
+    "popular": "Popular",
+    "myTopics": "Topics",
+    "changeLanguage": "Display language",
+    "theme": "Theme",
+    "about": "About UFORUM",
+    "team": "Team",
+    "help": "Help",
+    "searchPlaceholder": "Searching for...",
+    "searchButton": "Search",
+    "welcomeMessage": "Welcome",
+    "logIn": "Log in",
+    "signUp": "Sign up"
+  },
+  "topic": {
+    "topicsNotFound": "Topics not found :(",
+    "myTopicsCaption": "My topics",
+    "savedTopicsCaption": "Saved topics",
+
+    "discussion": "Discussion",
+    "showMore": "Show more...",
+    "showLess": "Show less",
+    "additionalInformation": "Additional Information",
+    "comments": "Comments",
+    "loading": "Loading...",
+    "attachedFiles": "Attached Files",
+    "back": "Back",
+    "firstCommentNotification": "You can be the first to comment on this topic!",
+    "deletedCommentLabel": "*Deleted comment*",
+    "writeCommentLabel": "Write a comment...",
+    "addTopicButton": "+ Create topic",
+
+    "saveTopic": "Save topic",
+    "unsaveTopic": "Unsave",
+    "copyUrl": "Copy URL",
+    "copiedToClipboard": "Copied to clipboard",
+    "topicNotFound": "No results found for your query :(",
+    "deleteTopicQuery": "Delete this topic?",
+    "newest": "Newest",
+    "oldest": "Oldest",
+    "topRated": "Top rated",
+    "author": "Author",
+    "subs": "Subscriptions",
+    "subscribe": "Subscribe",
+    "subscribed": "Subscribed"
+  },
+  "profile": {
+    "unknown": "Unknown",
+    "failedToLogOut": "Failed to log out",
+    "updateProfile": "Update Profile",
+    "logout": "Log Out",
+    "username": "Username",
+    "email": "Email",
+    "noUserInfo": "No user information found",
+    "password": "Password",
+    "newPassword": "New password",
+    "fullName": "Full name",
+    "incorrectPassword": "Incorrect password",
+    "emailInUse": "This email is already in use",
+    "usernameInUse": "This username is already taken",
+    "saveAvatar": "Save avatar",
+    "deleteAvatar": "Delete avatar",
+    "updateSuccess": "Profile updated successfully",
+    "updateError": "There was an error updating the profile",
+    "follow": "Follow",
+    "unfollow": "Unfollow",
+    "message": "Message"
+  },
+  "tag": {
+    "allTags": "All Tags",
+    "searchTag": "Search Tag",
+    "searchByTags": "Search by Tags",
+    "copied": "copied",
+    "popularTags": "Popular Tags",
+    "showMore": "Show More",
+    "tagsNotFound": "No tags found"
+  },
+  "time": {
+    "today": "Today",
+    "yesterday": "Yesterday",
+    "days_ago": "{{count}} days ago",
+    "days_ago_few": "{{count}} days ago",
+    "days_ago_many": "{{count}} days ago",
+    "weeks_ago": "{{count}} week ago",
+    "weeks_ago_plural": "{{count}} weeks ago",
+    "months_ago": "{{count}} month ago",
+    "months_ago_plural": "{{count}} months ago",
+    "years_ago": "{{count}} year ago",
+    "years_ago_plural": "{{count}} years ago",
+    "for_today": "Today",
+    "for_this_month": "This month"
+  },
+
+  "about": {
+    "description": " is an online forum for students who want to find answers to questions together and solve problems collectively.",
+    "mission": "Our mission is to unite students on a single platform where they can easily communicate and quickly get answers to their questions.",
+    "how_it_works": "How does UFORUM work?",
+    "features": {
+      "create_topic": "Creating a topic: users can create new topics for discussion.",
+      "commenting": "Commenting: other users leave comments, sharing their thoughts.",
+      "reactions": "Reactions: likes and other reactions push popular topics higher in the list."
+    }
+  },
+
+  "team": {
+    "members": [
+      {
+        "name": "Roman",
+        "role": "Frontend/Backend Developer"
+      },
+      {
+        "name": "Bogdan",
+        "role": "Backend Developer"
+      },
+      {
+        "name": "Matviy",
+        "role": "Backend Developer"
+      },
+      {
+        "name": "Vitaliy",
+        "role": "Frontend Developer"
+      },
+      {
+        "name": "Dmytro",
+        "role": "Frontend Developer"
+      },
+      {
+        "name": "Nazar",
+        "role": "UI&UX Designer / Project Manager"
+      }
+    ]
+  },
+
+  "faq": "Frequently Asked Questions",
+  "questions": {
+    "username_change": {
+      "title": "Can I change my username?",
+      "answer": "Yes, you can always change your username on the profile update page. However, it is important to note that you cannot choose a username that has already been used by another user."
+    },
+    "forgot_password": {
+      "title": "How can I log in if I forgot my password?",
+      "answer": "Click 'Forgot password?' on the login page and follow the further instructions."
+    },
+    "search_system": {
+      "title": "How does the search system work?",
+      "answer": {
+        "general": "The search system allows you to find UFORUM users and tags used for creating topics, or a combination of both.",
+        "first": "1. The ‘@’ symbol is used to search for users in the application.",
+        "second": "2. The ‘#’ symbol is used to search for tags.",
+        "third": "3. A combination of these symbols will suggest topics created by the specified user with the specified tag. Users and tags entered should be separated by punctuation marks: comma, slash, semicolon."
+      }
+    }
+  }
+}

@@ -1,0 +1,23 @@
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+.submit-button {
+  background-color: #659287;
+  border: none;
+  border-radius: 0px;
+  font-size: 24px;
+  border: 1px solid transparent;
+}
+
+.submit-button:hover {
+  color: #659287;
+  background-color: white;
+  border: 1px solid #659287;
+}
+.submit-button:active{
+  color: #659287;
+  background-color: white;
+  border: 1px solid #659287;
+  box-shadow: 0 0 1vh 1vh #659287;
+}

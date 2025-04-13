@@ -1,0 +1,8 @@
+CREATE TABLE messages (
+    id SERIAL PRIMARY KEY,
+    chat_id VARCHAR(255) NOT NULL REFERENCES chats(id) ON DELETE CASCADE,
+    sender_id VARCHAR(255) NOT NULL REFERENCES users(uid) ON DELETE CASCADE,
+    content TEXT NOT NULL,
+    attachments TEXT[],
+    sent_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);

@@ -1,0 +1,23 @@
+.content-cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 50px;
+  width: 90%;
+}
+.card-add {
+  margin: 10px 0px;
+  width: 100%;
+  padding: 20px 30px;
+  cursor: pointer;
+}
+h5 {
+  text-align: center;
+}
+h6 {
+  font-weight: 700;
+}
+.card-head {
+  display: flex;
+  justify-content: space-between;
+}

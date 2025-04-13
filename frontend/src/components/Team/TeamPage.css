@@ -1,0 +1,52 @@
+.content{
+    display: grid;
+    place-items: center; /* Центрує і по вертикалі, і по горизонталі */
+    text-align: center;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap: 30px;
+    width: 90%;
+    margin-top: 25px;
+}
+.person-card {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    justify-content: center;
+}
+
+.avtr {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Вирівнюємо елементи */
+    position: relative;
+}
+
+.vert-text {
+    transform: rotate(270deg); /* Поворот на 90 градусів */
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translate(-130%, -50%) rotate(270deg); /* Вирівнюємо */
+    white-space: nowrap; /* Запобігає переносу тексту */
+}
+
+.avtr img {
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    margin-bottom: 10px ;
+}
+
+.p-c-info {
+    display: flex;
+    justify-content: center;
+}
+@media (max-width: 767px){
+    .content{
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(3,1fr);
+    }
+
+}

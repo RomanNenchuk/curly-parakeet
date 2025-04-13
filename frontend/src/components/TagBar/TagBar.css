@@ -1,0 +1,216 @@
+@font-face {
+  font-family: "Inter";
+  src: url("/fonts/Inter/Inter_28pt-Medium.ttf");
+}
+@font-face {
+  font-family: "Actor";
+  src: url("/fonts/Actor/Actor-Regular.ttf");
+}
+
+.tag-list-title {
+  font-family: "Actor", Arial, sans-serif;
+  font-size: 2.6vh;
+  font-weight: 400;
+  line-height: 4vh;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  margin-bottom: 2vh;
+}
+
+.tag {
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 2.5vh;
+  font-weight: 100;
+  line-height: 4vh;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  margin-bottom: 0.5vh;
+  cursor: pointer;
+}
+
+.tag-list {
+  padding: 1vh;
+  position: sticky;
+  top: 17vh;
+  display: block;
+  height: 80vh;
+  flex-direction: column;
+  right: 0;
+  min-width: 36vh;
+  background-color: rgb(255, 230, 169);
+  border: 0.1vh solid black;
+  font-size: 2vh;
+}
+
+.tag-outer-ext {
+  position: fixed;
+  right: 37vh;
+  top: 20vh;
+}
+
+.tag-list-title-ext {
+  position: sticky;
+  width: 100%;
+  background-color: #ffe6a9;
+  top: 0px;
+  border-bottom: 0.2vh solid black;
+  margin-bottom: 1vh;
+  z-index: 2;
+}
+
+.tag-list-title-ext span {
+  font-size: 3vh;
+  font-weight: 400;
+  line-height: 4vh;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  font-family: "Actor", Arial, sans-serif;
+}
+
+.tag-list-title-ext input {
+  background-color: rgb(220, 220, 220);
+  outline: none;
+  border: 0.1vh solid black;
+  border-radius: 1vh;
+  margin: 1vh;
+  font-size: 2.6vh;
+  overflow-x: scroll;
+}
+.tag-list-title-ext input::placeholder {
+  color: black;
+  font-size: 2.4vh;
+  padding: 1vh;
+}
+.selected-tags-container {
+  max-height: 10vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.selected-tags-scrollable {
+  max-height: 10vh;
+  overflow-y: auto;
+  padding-right: 1rem;
+}
+
+.selected-tags-scrollable::-webkit-scrollbar {
+  display: none;
+}
+
+.selected-tags-gradient {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 0.8rem; /* Висота градієнта */
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0),
+    #fff7eb
+  ); /* Градієнт згори донизу */
+  pointer-events: none; /* Не блокує взаємодію з контентом */
+}
+
+.tag-ext {
+  font-size: 2.5vh;
+  font-weight: 500;
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 3.5vh;
+  font-weight: 500;
+  line-height: 4vh;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  margin-bottom: 2.5vh;
+}
+
+.tag-list-ext {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  top: 20vh;
+  height: 40vh;
+  width: 36vh;
+  overflow: auto;
+  /* scrollbar-width: none; */
+  /* -ms-overflow-style: none; */
+
+  background-color: rgb(255, 255, 255);
+  border: 0.1vh solid black;
+  font-size: 2vh;
+}
+
+.corner-line {
+  position: fixed;
+  width: 0.66px; /* Товщина вертикальної лінії */
+  height: 100px; /* Висота вертикальної лінії */
+  background-color: black;
+  top: 81%;
+  left: 2%;
+}
+
+.corner-line::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100px; /* Довжина горизонтальної лінії */
+  height: 0.66px; /* Товщина горизонтальної лінії */
+  background-color: black;
+}
+
+.tag-list-container {
+  height: 45vh;
+  width: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  margin: 1vh;
+  border: 1px solid #bdbdbd;
+  padding: 15px;
+}
+.close-button-container {
+  position: fixed;
+  left: 93%;
+  top: 1%;
+  border-radius: 50%;
+  background-color: #d9d9d9;
+  width: 30px;
+  height: auto;
+}
+.modal-header {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  font-size: 30px;
+  font-weight: 700;
+}
+.seach-bar-container {
+  display: flex;
+  align-items: center;
+  margin-top: 1vh;
+  background-color: #d9d9d9;
+  margin-bottom: 2vh;
+  border-radius: 5px;
+}
+.tags-not-found {
+  margin-top: 10px;
+  text-align: center;
+}
+.seach-bar-container:focus-within {
+  border-color: #71d2ba;
+  box-shadow: 0 0 0.5vh 0.1vh #659287cc;
+}
+
+.input-left:focus {
+  box-shadow: -0.5vh 0 0 0 #659287cc;
+}
+
+
+#show-more:hover{
+  color: #57a692;
+}

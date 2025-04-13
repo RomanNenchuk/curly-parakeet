@@ -1,0 +1,95 @@
+.comment-list-group {
+  overflow-y: auto;
+  width: 100%;
+  padding-bottom: 5px;
+}
+.topic-comments {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.comment-outer {
+  /* border: 0.1vh solid black; */
+  padding: 1vh;
+  width: 90%;
+  margin-top: 50px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+.header-container {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.header-delimiter {
+  color: #555;
+}
+.comment-timestamp {
+  font-size: 14px;
+  color: #555;
+}
+.comment-text {
+  margin: 0 20px 20px 20px;
+  overflow-wrap: "break-word";
+  word-wrap: break-word;
+  white-space: pre-wrap;
+}
+.comment-outer-reply {
+  /* border: 0.1vh solid black; */
+  padding: 1vh;
+  width: 80%;
+  margin: 10px 0 0 5vw;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+.comment-input-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 43px;
+  width: 100%;
+  padding: 5px 22px;
+  background: #acc3d3a8;
+}
+#comment-input {
+  flex-grow: 1;
+  background-color: #acc3d3a8;
+  border: none;
+  border-radius: 1vh;
+  font-size: 0.9rem;
+  font-family: "Inter";
+  background: transparent;
+  outline: none;
+  padding: 3px 10px;
+}
+#comment-input::placeholder{
+  font-size: 0.9rem;
+}
+#chat-message-input::placeholder {
+  color: #659290;
+  letter-spacing: 0.02em;
+}
+.my-reaction {
+  background-color: #ffe657;
+}
+.default-comment-notification {
+  margin-top: 40px;
+  padding: 10px;
+  border-radius: 20px;
+  font-size: 20px;
+}
+@media (max-width: 767px) {
+  .comment-input-container{
+    position: fixed;
+    left: 0;
+    bottom:  0;
+    gap: 5px;
+    font-size: 0.8rem;
+    padding: 4px 8px;
+
+    background-color: #acc3d3;
+  }
+}

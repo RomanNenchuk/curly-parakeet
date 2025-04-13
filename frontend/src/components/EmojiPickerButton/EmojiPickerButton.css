@@ -1,0 +1,44 @@
+.send-smile-container {
+  position: relative;
+  display: inline-block;
+}
+.send-smile-btn img,
+.send-msg-btn svg {
+  width: auto;
+  height: 20px;
+}
+.send-smile-btn {
+  position: relative;
+  z-index: 101;
+}
+.send-smile-btn:hover ~ .emoji-picker,
+.invisible-gap:hover + .emoji-picker,
+.emoji-picker:hover {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+.invisible-gap {
+  z-index: 200;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 50px;
+  height: 50px; /* Висота інтервалу */
+  pointer-events: auto;
+}
+.emoji-picker {
+  position: absolute;
+  bottom: calc(100% + 10px); /* Відступ від кнопки */
+  left: 0;
+  transform: translateX(-50%);
+  z-index: 100;
+  background: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  opacity: 0; /* Початково прихований */
+  visibility: hidden; /* Щоб елемент не блокував взаємодію */
+  pointer-events: none; /* Забороняє взаємодію, поки пікер невидимий */
+  transition: opacity 0.3s ease, visibility 0.3s ease; /* Плавний перехід */
+}

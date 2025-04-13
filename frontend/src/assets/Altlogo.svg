@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<svg width="94" height="95" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <g class="layer">
+  <title>Layer 1</title>
+  <circle cx="47" cy="47" fill="#ffffff" id="svg_5" r="45.94" stroke="#000000"/>
+  <g id="svg_6" transform="matrix(1 0 0 1 0 0)">
+   <path clip-rule="evenodd" d="m3.47,50.96c11.83,-6.22 22.19,-12.6 31.05,-11.69c4.08,0.42 7.05,4.06 6.63,8.12c-0.43,4.06 -4.08,7.02 -8.16,6.6c-8.86,-0.91 -14.22,-6.67 -29.52,-3.03z" fill="black" fill-rule="evenodd" id="svg_1" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="1.5" stroke-width="6.25"/>
+   <path clip-rule="evenodd" d="m43.33,3.49c6.23,11.82 12.61,22.19 11.7,31.04c-0.42,4.08 -4.06,7.05 -8.12,6.63c-4.06,-0.42 -7.02,-4.08 -6.61,-8.16c0.91,-8.85 6.67,-14.22 3.03,-29.51z" fill="#FF4A19" fill-rule="evenodd" id="svg_2" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="1.5" stroke-width="4.17"/>
+   <path clip-rule="evenodd" d="m90.1,45.13c-15.29,3.64 -20.66,-2.12 -29.51,-3.03c-4.08,-0.42 -7.74,2.54 -8.16,6.6c-0.42,4.07 2.55,7.71 6.63,8.13c8.85,0.9 19.22,-5.47 31.04,-11.7z" fill="black" fill-rule="evenodd" id="svg_3" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="1.5" stroke-width="6.25"/>
+   <path clip-rule="evenodd" d="m48.77,90.47c-3.42,-14.37 1.99,-19.41 2.84,-27.73c0.4,-3.84 -2.39,-7.27 -6.21,-7.67c-3.81,-0.4 -7.23,2.4 -7.63,6.23c-0.85,8.32 5.14,18.06 11,29.17z" fill="#E1DB00" fill-rule="evenodd" id="svg_4" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="1.5" stroke-width="4.16"/>
+  </g>
+ </g>
+
+</svg>

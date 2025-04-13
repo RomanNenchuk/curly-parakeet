@@ -1,0 +1,23 @@
+.submain-in {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  margin-top: 11vh;
+  padding: 0 2vh;
+  width: 45%;
+  background-color: rgb(244, 236, 224);
+}
+
+.observer-element {
+  min-height: 10px;
+}
+
+.topics-not-found {
+  margin-top: 10vh;
+}
+@media (max-width: 768px) {
+  .submain-in {
+    width: 100%;
+    margin-top: 10vh;
+  }
+}
